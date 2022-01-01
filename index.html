@@ -118,8 +118,13 @@
 		}
 
 		.project1{
-			width: 1100px;
+			width: 900px;
 			height: 600px;
+		}
+
+		#proposal{
+			width: 900px;
+			height: 1000px;
 		}
 
 	</style>
@@ -268,7 +273,7 @@
 					<p>제가 이 프로젝트에 임하는 마음가짐은 <b>두 가지</b> 였습니다. 처음 해보는 프로젝트이고 팀원 중 전공자 등 유경험자가 많았기 때문에 "잘하기" 보다는 첫번째로 <b>"팀장으로써 가장 오랜 시간 프로젝트에 임하고 가장 꼼꼼히 검토하는 것"</b> 이었고 두번쨰는 <b>매일이 군대에서 했던 당직 근무라고 생각하고 물러서지 않는것</b>이었습니다.</p>
 					
 
-					<img src="images/project1-1.png" alt="" >
+					<img src="images/project1-1.png" alt="" class = "project1">
 					<h4><b>안경집 기획서</b></h4>
 					<p>프로젝트 기획안입니다. 보시는바와 같이 시장에 나와있는 안경 쇼핑몰들이 오프라인으로 안경을 구입하는 리스크를 줄이기 위해 고려 사항들을 충분히 제공하지 않고 있다는 점에 문제 의식을 삼았고, 프로젝트를 진행하였습니다.</p>
 
@@ -288,17 +293,39 @@
 					<h4><a href="images/project1-screenSample.pptx" download="안경집 화면 설계도.pptx"><b>안경집 화면 설계도(클릭 시 원본 파일 다운로드 가능)</b></a></h4>
 					<p>코드 구현에 앞서 콘솔 환경으로 인터페이스를 어떻게 구성할지를 ppt로 구성한 파일으로, 화려하고 거창하게 표현하기보다는 깔끔하고 직관적으로 표현하여 사용자 경험을 살리는 방안으로 작업을 진행하였습니다.</p>
 
+
+
 					<img src="images/project1-7.jpg" alt="" class = "project1">
-					<h4><b>안경집 메인 화면</b></h4>
+					<h4><b>안경집 화면 구성(메인 화면)</b></h4>
 					<p>프로젝트의 메인 화면입니다. 헬로우 메세지와 함께 안경의 모습을 아스키 코드로 표현하였습니다.</p>
 					<br>
 
 					<img src="images/project1-8.jpg" alt="" class = "project1">
-					<h4><b>안경집 전체 상품보기</b></h4>
+					<h4><b>안경집 화면 구성(전체 상품 보기)</b></h4>
 					<p>현재 판매중인 안경의 전체 상품을 볼 수 있습니다. 한 페이지에 20개 씩 볼 수 있도록 페이징 하였으며, #과 숫자를 입력하면 물품의 상세 페이지를 볼 수 있습니다. 데이터는 약 1200개 정도로, 현물 자료들을 크롤링 하였습니다.</p>
 
-					<img src="images/project1-8.jpg" alt="" class = "project1">
-					<h4><b>안경집 전체 상품보기</b></h4>
+					<img src="images/project1-9.jpg" alt="" class = "project1">
+					<h4><b>안경집 화면 구성(카테고리별 상품 보기)</b></h4>
+					<p>판매중인 상품을 카테고리별로 확인할 수 있습니다. 전체보기와 마찬가지로 사용자가 편하게 볼 수 있게 페이징 하였으며, 해당 화면은 "뿔테" 카테고리에 해당하는 화면입니다.</p>
+
+					<img src="images/project1-10.jpg" alt="" class="project1">
+					<h4><b>안경집 화면 구성(상품 상세)</b></h4>
+					<p>상품의 상세 정보를 보여주는 화면으로 "바로 주문하기"와 "장바구니 추가" 중 하나를 선택할 수 있는 화면입니다.</p>
+
+					<img src="images/project1-11.jpg" alt="" class = "project1">
+					<h4><b>안경집 화면 구성(통합 검색)</b></h4>
+					<p>상품을 통합 검색하는 화면입니다. 쉐입, 소재, 브랜드, 가격, 규격, 검색어 6가지의 조건을 입력할 수 있고, 입력 완료 시 해당 조건에 해당하는 상품들만 보여주는 기능이 있습니다.</p>
+
+					<img src="images/project1-12.jpg" alt="" class = "project1">
+					<h4><b>안경집 화면 구성(통합 검색 결과)</b></h4>
+					<p>통합 검색 조건에 해당하는 상품들만 출력해주는 화면입니다.</p>
+
+
+					<img src="images/project1-13.jpg" alt="" class="project1">
+					<h4><b>안경집 화면 구성(회원 가입)</b></h4>
+					<p>이전까지의 화면들은 "비회원"과 "회원"모두 공통적으로 사용이 가능한 화면이었으며 로그인과 회원을 구분하기 위한 절차인 회원가입을 진행하는 화면입니다.</p>
+
+
 
 
 					
@@ -314,14 +341,37 @@
 			<section id="contact" class="main special">
 				<header class="major">
 					<h2>Contact</h2>
+
+					<p>이 포트폴리오는 좋은 개발자가 되기 위한 제 노력의 일부입니다.
+						<br>포트폴리오나 입사와 관련된 것이 아닌 어떠한 조언이라도 달게 받겠습니다.</p>
+
 					<dl class="alt">
-						<dt>Address</dt>
-						<dd>서울특별시 신림동 문성로 205-7</dd>
-						<dt>Phone</dt>
-						<dd>010-4562-3255</dd>
-						<dt>Email</dt>
-						<dd><a href="lh0156@naver.com">lh0156@naver.com</a></dd>
+						<dd>Address: 서울특별시 신림동 문성로 205-7</dd>
+						
+						<dd>Phone: 010-4562-3255</dd>
+						
+						<dd>Email: <a href="lh0156@naver.com">lh0156@naver.com</a></dd>
 					</dl>
+
+					<div class="content">
+					
+						<form>
+							<div class="fields">
+								<div class="field half">
+									<input type="text" name="name" id="name" placeholder="Name" />
+								</div>
+								<div class="field half">
+									<input type="email" name="email" id="email" placeholder="Email" />
+								</div>
+								<div class="field">
+									<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+								</div>
+							</div>
+							<ul class="actions">
+								<li><input type="submit" value="메세지 전송" class="button primary" /></li>
+							</ul>
+						</form>
+					</div>
 				</header>
 				<ul class="features">
 				</ul>
