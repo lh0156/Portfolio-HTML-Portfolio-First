@@ -25,7 +25,9 @@
 			margin-bottom: 5px;
 		}
 
-		.insta, .git, .blog {
+		.insta,
+		.git,
+		.blog {
 			width: 150px;
 		}
 
@@ -43,7 +45,10 @@
 			height: 20px;
 		}
 
-		#java,#html,#css,#javascript {
+		#java,
+		#html,
+		#css,
+		#javascript {
 			width: 10px;
 		}
 
@@ -52,46 +57,52 @@
 		}
 
 		.SkillList {
-			display: inline-block;			
+			display: inline-block;
 		}
 
 		.skill>img {
 			width: 50px;
 			height: 50px;
 		}
-		
-		.skill>img>div{
+
+		.skill>img>div {
 			text-align: center;
 			margin-left: 50px;
 			font-weight: bolder;
 		}
 
-		td{
+		td {
 			width: 10px;
 			text-align: center;
 		}
 
-		table { table-layout:fixed;}
+		table {
+			table-layout: fixed;
+		}
 
-		.carrerImg{
+		.carrerImg {
 			margin-left: 55px;
 			width: 200px;
 			height: 165.23px;
 		}
 
-		h3{
+		h3 {
 			text-align: center;
 		}
 
-		#skillList{
+		#skillList {
 			margin-top: 75px;
 		}
 
-		#universityExplanation, #ROTCExplanation, #ssangYongExplanation{
+		#universityExplanation,
+		#ROTCExplanation,
+		#ssangYongExplanation {
 			margin-top: 50px;
 		}
 
-		#universityName, #ROTCName, #ssangYongName{
+		#universityName,
+		#ROTCName,
+		#ssangYongName {
 			margin-top: 30px;
 		}
 
@@ -102,13 +113,15 @@
 			margin-right: auto;
 		}
 
-		#footer{
+		#footer {
 			color: black;
 			padding: 0px;
 			margin-bottom: 0px;
 		}
-		
-		#aboutOfInstar, #aboutOfBlog, #email{
+
+		#aboutOfInstar,
+		#aboutOfBlog,
+		#email {
 			color: purple;
 		}
 
@@ -117,25 +130,47 @@
 			font-size: 15px;
 		}
 
-		.project1{
+		.project1 {
 			width: 900px;
 			height: 600px;
 		}
 
-		#proposal{
+		.project2 {
+			width: 500px;
+			height: 300px;
+		}
+
+		#proposal {
 			width: 900px;
 			height: 1000px;
 		}
 
-		#sendMasage{
+		#sendMasage {
 			margin-left: 512px;
 		}
 
-		#project1-review{
+		#project1-review {
 			width: 700px;
 			height: 600px;
 		}
 
+		img {
+			transform: scale(1);
+			-webkit-transform: scale(1);
+			-moz-transform: scale(1);
+			-ms-transform: scale(1);
+			-o-transform: scale(1);
+			transition: all 0.5s ease-in-out;
+			/* 서서히 확대 */
+		}
+
+		img:hover {
+			transform: scale(1.1);
+			-webkit-transform: scale(1.1);
+			-moz-transform: scale(1.1);
+			-ms-transform: scale(1.1);
+			-o-transform: scale(1.1);
+		}
 	</style>
 </head>
 
@@ -186,13 +221,21 @@
 						</header>
 						<li>안녕하세요 신입 개발자 <span id="name">엄윤섭</span>입니다.</li>
 						<li>꾸준함의 진짜 가치를 알기에 <b>1일 1커밋</b>과 <b>기술 블로그</b>를 운영하고 있습니다.</li>
-						<li>사건의 선두에서 <b>솔선수범</b> 해야만 높은곳에 올라갈 수 있다고 생각합니다. ROTC의 길을 걸으며 솔선수범의 삶을 살았고 <b>교육센터의 프로젝트 간 2번의 팀장 경험</b>이 있습니다.</li>
-						<li>객체 지향 프로그래밍에 관심이 많으며 여러 <b>디자인 패턴을 적용하는 방법론을 일상적으로 고민</b>합니다. 밥을 먹다가 아이디어가 떠오르더라도 바로 컴퓨터로 직행하는 성격입니다.</li>
-						<li>군대에서 소대장부터 중대장 직책을 수행하면서 내 주변 사람을 사랑으로 대해야 한다는 믿음으로 대해왔고 지금도 그렇게 믿습니다. <b>제 인생에 찾아온 모든 사람을 사랑하며 어딜가나 잘 어울리는 편입니다.</b></li>
-						<li>복싱을 7년간 수련했으며 그밖에도 작문, 작곡, 노래, 주식, 서평을 좋아합니다. 제가 <b>사고하는 방식</b>이 궁금하시다면 제 <a href="https://blog.naver.com/lh0156" id = "aboutOfBlog">블로그</a>와 <a href="https://www.instagram.com/seop_0123" id = "aboutOfInstar">인스타그램</a>을 확인해주세요!</b> <span id = "info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 클릭 시 해당 페이지로 이동</span>
+						<li>사건의 선두에서 <b>솔선수범</b> 해야만 높은곳에 올라갈 수 있다고 생각합니다. ROTC의 길을 걸으며 솔선수범의 삶을 살았고 <b>교육센터의 프로젝트 간 2번의 팀장
+								경험</b>이 있습니다.</li>
+						<li>객체 지향 프로그래밍에 관심이 많으며 여러 <b>디자인 패턴을 적용하는 방법론을 일상적으로 고민</b>합니다. 밥을 먹다가 아이디어가 떠오르더라도 바로 컴퓨터로 직행하는
+							성격입니다.</li>
+						<li>군대에서 소대장부터 중대장 직책을 수행하면서 내 주변 사람을 사랑으로 대해야 한다는 믿음으로 대해왔고 지금도 그렇게 믿습니다. <b>제 인생에 찾아온 모든 사람을 사랑하며
+								어딜가나 잘 어울리는 편입니다.</b></li>
+						<li>복싱을 7년간 수련했으며 그밖에도 작문, 작곡, 노래, 주식, 서평을 좋아합니다. 제가 <b>사고하는 방식</b>이 궁금하시다면 제 <a
+								href="https://blog.naver.com/lh0156" id="aboutOfBlog">블로그</a>와 <a
+								href="https://www.instagram.com/seop_0123" id="aboutOfInstar">인스타그램</a>을 확인해주세요!</b> <span
+								id="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*
+								클릭 시 해당 페이지로 이동</span>
 						</li>
 						<li>600쪽 분량의 책을 한 텀에 읽을 수 있는 <b>몰입력</b>을 가지고 있습니다. <br>
-							사건(책)을 독파하는 몰입력 하나로 국어 국문학과를 졸업했습니다.&nbsp; 따라서 새로운 분야를 공부하고 분석하는것에 자신이 있으며  도메인 분석 소요가 있을때 선봉이되어 해내고 싶습니다. </li>
+							사건(책)을 독파하는 몰입력 하나로 국어 국문학과를 졸업했습니다.&nbsp; 따라서 새로운 분야를 공부하고 분석하는것에 자신이 있으며 도메인 분석 소요가 있을때 선봉이되어 해내고
+							싶습니다. </li>
 					</div>
 					<span class="image"><img src="images/profile.jpg" alt="" /></span>
 				</div>
@@ -207,29 +250,55 @@
 						<header class="major">
 							<h2>My Skill</h2>
 						</header>
-							
-							<table id = "skillList">
-								<tr>
-									<td class="skill" id="java"><img src="images/java.png" alt=""><div>Java</div></td>
-									<td class="skill" id="oracle"><img src="images/oracle.png" alt=""><div>Oracle</div></td>
-									<td class="skill" id="html"><img src="images/html.png" alt=""><div>HTML</div></td>
-									<td class="skill" id="css"><img src="images/css.png" alt=""><div>CSS</div></td>
-									<td class="skill" id="javascript"><img src="images/js.png" alt=""><div>JavaScript</div></td>
-								</tr>
-								<tr>
-									<td class="skill" id="vscode"><img src="images/vscode.png" alt=""><div>VSCode</div></td>
-									<td class="skill" id="github"><img src="images/github.png" alt=""><div>GitHub</div></td>
-									<td class="skill" id="git"><img src="images/git.png" alt=""><div>Git</div></td>
-									<td class="skill" id="javaspring"><img src="images/jsp.png" alt=""><div>JavaSpring</div></td>
-									<td class="skill" id="eclipse"><img src="images/eclipse.png" alt=""><div>Eclipse</div></td>
-								</tr>
 
-								<tr>
-									<td class="skill" id="IntelliJ"><img src="images/IntelliJ.png" alt=""><div>IntelliJ</div></td>									
-									<td class="skill" id="Jsoup"><img src="images/Jsoup.jfif" alt=""><div>Jsoup</div></td>									
-									<td class="skill" id="sourceTree"><img src="images/sourceTree.png" alt=""><div>Sourcetree</div></td>									
-								</tr>
-							</table>
+						<table id="skillList">
+							<tr>
+								<td class="skill" id="java"><img src="images/java.png" alt="">
+									<div>Java</div>
+								</td>
+								<td class="skill" id="oracle"><img src="images/oracle.png" alt="">
+									<div>Oracle</div>
+								</td>
+								<td class="skill" id="html"><img src="images/html.png" alt="">
+									<div>HTML</div>
+								</td>
+								<td class="skill" id="css"><img src="images/css.png" alt="">
+									<div>CSS</div>
+								</td>
+								<td class="skill" id="javascript"><img src="images/js.png" alt="">
+									<div>JavaScript</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="skill" id="vscode"><img src="images/vscode.png" alt="">
+									<div>VSCode</div>
+								</td>
+								<td class="skill" id="github"><img src="images/github.png" alt="">
+									<div>GitHub</div>
+								</td>
+								<td class="skill" id="git"><img src="images/git.png" alt="">
+									<div>Git</div>
+								</td>
+								<td class="skill" id="javaspring"><img src="images/jsp.png" alt="">
+									<div>JavaSpring</div>
+								</td>
+								<td class="skill" id="eclipse"><img src="images/eclipse.png" alt="">
+									<div>Eclipse</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td class="skill" id="IntelliJ"><img src="images/IntelliJ.png" alt="">
+									<div>IntelliJ</div>
+								</td>
+								<td class="skill" id="Jsoup"><img src="images/Jsoup.jfif" alt="">
+									<div>Jsoup</div>
+								</td>
+								<td class="skill" id="sourceTree"><img src="images/sourceTree.png" alt="">
+									<div>Sourcetree</div>
+								</td>
+							</tr>
+						</table>
 
 
 					</div>
@@ -244,21 +313,27 @@
 				</header>
 				<ul class="features">
 					<li>
-						<span class="carrer"><img src="images/uou.gif" alt="" class = "carrerImg"></span>
-						<h3 id = "universityName">울산대학교 국어 국문학과</h3>
+						<span class="carrer"><img src="images/uou.gif" alt="" class="carrerImg"></span>
+						<h3 id="universityName">울산대학교 국어 국문학과</h3>
 						<div>
-							<p id = "universityExplanation">울산대학교 국어 국문학과를 2019년 3월에 졸업 했습니다. 18살 이후 연 평균 50권 이상 책을 읽어왔으며 <b>도메인 분석과 텍스트를 이해하는 능력</b>이 출중합니다. 이런 능력들은 다방면으로 제가 살아가는데에 날개를 달아주었으며 <b>실무에서도 강점으로 작용할 것이라 확신합니다.</b></p>
+							<p id="universityExplanation">울산대학교 국어 국문학과를 2019년 3월에 졸업 했습니다. 18살 이후 연 평균 50권 이상 책을 읽어왔으며 <b>도메인
+									분석과 텍스트를 이해하는 능력</b>이 출중합니다. 이런 능력들은 다방면으로 제가 살아가는데에 날개를 달아주었으며 <b>실무에서도 강점으로 작용할 것이라
+									확신합니다.</b></p>
 						</div>
 					</li>
 					<li>
-						<span class="ROTC"><img src="images/militery.jfif" alt="" class = "carrerImg"></span>
-						<h3 id = "ROTCName">21사단 <b>육군 중위</b> 만기 제대</h3>
-						<p id = "ROTCExplanation">학군 장교으로 임관하여 2021년 6월까지 장교의 길을 걸었습니다. 소대장, 중대장, 인사과장, 부중대장 4개의 직책을 수행하며 쌓은 경험을 바탕으로 신입부터 관리자 직책까지 각각의 본질적인 임무 수행 방안을 제대로 이해하고 있으며 상관을 따르는 팔로우쉽은 물론이고 전우를 이끌어나가는 리더십에 자부심이 있습니다. 이 경험들이 토대가 되어 지금의 저는 <b>"끝까지 버티고 반드시 이겨내는 사람"</b>이 되었다고 생각합니다.</p>
+						<span class="ROTC"><img src="images/militery.jfif" alt="" class="carrerImg"></span>
+						<h3 id="ROTCName">21사단 <b>육군 중위</b> 만기 제대</h3>
+						<p id="ROTCExplanation">학군 장교으로 임관하여 2021년 6월까지 장교의 길을 걸었습니다. 소대장, 중대장, 인사과장, 부중대장 4개의 직책을 수행하며 쌓은 경험을
+							바탕으로 신입부터 관리자 직책까지 각각의 본질적인 임무 수행 방안을 제대로 이해하고 있으며 상관을 따르는 팔로우쉽은 물론이고 전우를 이끌어나가는 리더십에 자부심이 있습니다. 이
+							경험들이 토대가 되어 지금의 저는 <b>"끝까지 버티고 반드시 이겨내는 사람"</b>이 되었다고 생각합니다.</p>
 					</li>
 					<li>
-						<span class="ssangyong"><img src="images/ssangyong.jpg" alt="" class = "carrerImg"></span>
-						<h3 id = "ssangYongName">쌍용 교육센터</h3>
-						<p id = "ssangYongExplanation">IT전문 교육기관인 '쌍용 교육센터'에서 Java 개발자 과정을 수강 하였습니다. <b>교육 수료 간 2번의 팀장 역할</b>을 수행 하였으며 팀장 역할의 일부로 주도적으로 프로젝트를 이끌어나간 경험이 있습니다. 처음 배운 언어가 자바이기 때문에 다른 언어들보다 더 애착이 깊으며 제가 해보고 싶던 프로젝트들도 대부분 자바를 수단으로 토이 프로젝트화 하였습니다.</p>
+						<span class="ssangyong"><img src="images/ssangyong.jpg" alt="" class="carrerImg"></span>
+						<h3 id="ssangYongName">쌍용 교육센터</h3>
+						<p id="ssangYongExplanation">IT전문 교육기관인 '쌍용 교육센터'에서 Java 개발자 과정을 수강 하였습니다. <b>교육 수료 간 2번의 팀장 역할</b>을
+							수행 하였으며 팀장 역할의 일부로 주도적으로 프로젝트를 이끌어나간 경험이 있습니다. 처음 배운 언어가 자바이기 때문에 다른 언어들보다 더 애착이 깊으며 제가 해보고 싶던
+							프로젝트들도 대부분 자바를 수단으로 토이 프로젝트화 하였습니다.</p>
 					</li>
 				</ul>
 			</section>
@@ -271,19 +346,24 @@
 
 				<div>
 					<div><img src="images/project0-0.png" alt="" class="project1"></div>
-					<h3><b>프로젝트 명: 키워드와 주식(토이 프로젝트)</b></h3>
+					<h3><b>프로젝트 명: 키워드와 주식(자바 기반의 토이 프로젝트)</b></h3>
 					<div>개발기간: '21. 12. 11~'21. 12. 21(매일 수업 종류 후 약 4시간정도 진행)</div>
 					<div>인원 수: 2명(엄윤섭, 황현우)</div>
 					<br>
 
 					<h4><b>프로젝트 개요</b></h4>
-					<p><b>누군가 당신에게 "코딩 공부 뭐부터 시작해야해?"라고 물어본다면 무엇이라 대답하시겠습니까?</b> 저는 20살 때 부터 "주식 공부 어떻게 시작해야해?" 라는 질문을 들어왔습니다. 이 질문에 답변하기가 어려운 이유는 코딩과 주식 둘 다 분야가 너무 광범위하고 때문에 처음 접하는 사람들에게는 진입 장벽이 너무 높기 때문이라고 생각합니다. <br><br><b>그래서 저는 제가 개발을 시작하게 되면 주식을 아무것도 모르는 사람도 쉽게 접할 수 있게 도와주는 보조적인 프로그램을 만들고 싶었습니다. 그래서 탄생한 것이 바로 이 프로그램입니다.</b></p>
+					<p><b>누군가 당신에게 "코딩 공부 뭐부터 시작해야해?"라고 물어본다면 무엇이라 대답하시겠습니까?</b> 저는 20살 때 부터 "주식 공부 어떻게 시작해야해?" 라는 질문을
+						들어왔습니다. 이 질문에 답변하기가 어려운 이유는 코딩과 주식 둘 다 분야가 너무 광범위하고 때문에 처음 접하는 사람들에게는 진입 장벽이 너무 높기 때문이라고 생각합니다.
+						<br><br><b>그래서 저는 제가 개발을 시작하게 되면 주식을 아무것도 모르는 사람도 쉽게 접할 수 있게 도와주는 보조적인 프로그램을 만들고 싶었습니다. 그래서 탄생한 것이 바로
+							이 프로그램입니다.</b></p>
 
 					<p>저는 이 프로젝트에서 아이디어 제공, 로직 형성, 설계도 작성 등 거의 모든 작업에 참여하였습니다.</p>
 
-					<p>남이 시켜서 하는 프로젝트가 아니라 <b>철저히 필요성에 의하여</b> 만든 프로젝트인 만큼 구현했을 때의 성취감과 벅차오름은 이루 말할수 없었습니다. 5명 이상이서 진행하는 팀 프로젝트만 해오다가 단 둘이서 진행해보니 마치 한 몸처럼 움직여야 하기 때문에 커뮤니케이션을 해야할 소요도 정말 많았고 잘 해냈던 프로젝트입니다.</p>
+					<p>남이 시켜서 하는 프로젝트가 아니라 <b>철저히 필요성에 의하여</b> 만든 프로젝트인 만큼 구현했을 때의 성취감과 벅차오름은 이루 말할수 없었습니다. 5명 이상이서 진행하는 팀
+						프로젝트만 해오다가 단 둘이서 진행해보니 마치 한 몸처럼 움직여야 하기 때문에 커뮤니케이션을 해야할 소요도 정말 많았고 잘 해냈던 프로젝트입니다.</p>
 
-					<p>1991년 이래로 상장된 국내 기업 약 2000개 가량의 데이터를 대상으로 생성되어 있으며 이 프로그램은 특정 종목을 권장하는 용도가 아닌, 주식 투자 혹은 주식 공부의 보조적인 수단으로써 활용하는 용도이기 때문에 엄밀성에 오차가 발생할 수 있습니다.</p>
+					<p>1991년 이래로 상장된 국내 기업 약 2000개 가량의 데이터를 대상으로 생성되어 있으며 이 프로그램은 특정 종목을 권장하는 용도가 아닌, 주식 투자 혹은 주식 공부의 보조적인
+						수단으로써 활용하는 용도이기 때문에 엄밀성에 오차가 발생할 수 있습니다.</p>
 
 
 					<img src="images/project0-1.png" alt="" class="project1">
@@ -306,14 +386,14 @@
 					<p>프로젝트에 느끼는 자부심은 다음과 같습니다.
 						1. 시장에도 키워드별로 주식을 매칭시키는 프로그램이 없다.<br>
 						2. 따라서 콘솔에 그치지 않고 계속해서 버전 업 가능하다.<br>
-						
+
 						지속적으로 버전을 업그레이드 해나가겠습니다.
 					</p>
 
 
 					<br><br><br>
 
-					
+
 				</div>
 
 				<hr>
@@ -321,53 +401,64 @@
 				<br><br><br>
 
 				<div>
-					<div><img src="images/project1-ppt.png" alt="" class = "project1"></div>
-					<h3><b>프로젝트 명: 안경집(팀 프로젝트)</b></h3>
+					<div><img src="images/project1-ppt.png" alt="" class="project1"></div>
+					<h3><b>프로젝트 명: 안경집(자바 기반의 팀 프로젝트)</b></h3>
 					<div>개발기간: '21. 10. 29~'21. 11. 04</div>
 					<div>인원 수: 6명(엄윤섭(팀장), 서민종, 조진욱, 이찬우, 한수연, 이채윤)</div>
-			
+
 					<br>
 					<h4><b>프로젝트 개요</b></h4>
-					<p>이 프로젝트는 제가 팀장으로 참여한 프로젝트로써 안경 쇼핑몰을 파일 입출력 콘솔 환경으로 구현한 프로젝트입니다. <br>프로젝트의 진행은 1. 기획서 작성, 2. 요구사항 명세서 작성 3. 데이터 파일 생성 4. 순서도 작성 5. 클래스 다이어그램 작성 <br>6. 개략적인 화면 설계, 7. 코드 작성 순으로 진행하였습니다.</p>
-					
+					<p>이 프로젝트는 제가 팀장으로 참여한 프로젝트로써 안경 쇼핑몰을 파일 입출력 콘솔 환경으로 구현한 프로젝트입니다. <br>프로젝트의 진행은 1. 기획서 작성, 2. 요구사항 명세서 작성
+						3. 데이터 파일 생성 4. 순서도 작성 5. 클래스 다이어그램 작성 <br>6. 개략적인 화면 설계, 7. 코드 작성 순으로 진행하였습니다.</p>
+
 					<p>이 프로젝트에서 제 <b>역할</b>은 팀장, 장바구니, 물품 상세 페이지, 비회원 주문하기와 결제하기 서비스 구현, 발표, 최종 자료 검토 였습니다.</p>
 
-					<p>제가 이 프로젝트에 임하는 마음가짐은 <b>두 가지</b> 였습니다. 처음 해보는 프로젝트이고 팀원 중 전공자 등 유경험자가 많았기 때문에 "잘하기" 보다는 첫번째로 <b>"팀장으로써 가장 오랜 시간 프로젝트에 임하고 가장 꼼꼼히 검토하는 것"</b> 이었고 두번쨰는 <b>매일이 군대에서 했던 당직 근무라고 생각하고 물러서지 않는것</b>이었습니다.</p>
-					
+					<p>제가 이 프로젝트에 임하는 마음가짐은 <b>두 가지</b> 였습니다. 처음 해보는 프로젝트이고 팀원 중 전공자 등 유경험자가 많았기 때문에 "잘하기" 보다는 첫번째로 <b>"팀장으로써
+							가장 오랜 시간 프로젝트에 임하고 가장 꼼꼼히 검토하는 것"</b> 이었고 두번쨰는 <b>매일이 군대에서 했던 당직 근무라고 생각하고 물러서지 않는것</b>이었습니다.</p>
 
-					<img src="images/project1-1.png" alt="" class = "proposal">
+
+					<img src="images/project1-1.png" alt="" class="proposal">
 					<h4><b>안경집 기획서</b></h4>
-					<p>프로젝트 기획안입니다. 보시는바와 같이 시장에 나와있는 안경 쇼핑몰들이 오프라인으로 안경을 구입하는 리스크를 줄이기 위해 고려 사항들을 충분히 제공하지 않고 있다는 점에 문제 의식을 삼았고, 프로젝트를 진행하였습니다.</p>
+					<p>프로젝트 기획안입니다. 보시는바와 같이 시장에 나와있는 안경 쇼핑몰들이 오프라인으로 안경을 구입하는 리스크를 줄이기 위해 고려 사항들을 충분히 제공하지 않고 있다는 점에 문제 의식을
+						삼았고, 프로젝트를 진행하였습니다.</p>
 
-					<img src="images/project1-3.png" class = "project1">
+					<img src="images/project1-3.png" class="project1">
 					<h4><b>안경집 요구사항 명세서</b></h4>
-					<p>실제 코드 구현에 앞서 요구사항 명세서를 작성하였습니다. 처음 하는 프로젝트인 만큼 가장 품을 많이 들인 파트였으며, 엑셀로 501개의 셀에 해당하는 분량을 작성하였습니다. <b>이 과정에서 팀원 중 한명은 이렇게 까지 하는것은 불필요행정 이라고 생각한다며 불만을 가지는 사람이 발생하기 시작했고 저는 팀이 방향성을 잃지 않기 위해서 해당 인원과 1:1로 이야기하여 풀어보려는 일련의 시도를하고 조금 더 솔선수범 함으로써 개발자 세계에서 팀 프로젝트간 불화를 어떻게 중화시켜야 할지를 배우게 되었습니다.</b></p>
+					<p>실제 코드 구현에 앞서 요구사항 명세서를 작성하였습니다. 처음 하는 프로젝트인 만큼 가장 품을 많이 들인 파트였으며, 엑셀로 501개의 셀에 해당하는 분량을 작성하였습니다. <b>이
+							과정에서 팀원 중 한명은 이렇게 까지 하는것은 불필요행정 이라고 생각한다며 불만을 가지는 사람이 발생하기 시작했고 저는 팀이 방향성을 잃지 않기 위해서 해당 인원과 1:1로
+							이야기하여 풀어보려는 일련의 시도를하고 조금 더 솔선수범 함으로써 개발자 세계에서 팀 프로젝트간 불화를 어떻게 중화시켜야 할지를 배우게 되었습니다.</b></p>
 
-					<img src="images/project1-4.PNG" alt="" class = "project1">
+					<img src="images/project1-4.PNG" alt="" class="project1">
 					<h4><b>안경집 순서도</b></h4>
-					<p>프로젝트가 어떻게 이어질지 개략적으로 나타낸 순서도입니다. 빠른 진행을 위해 제가 주도하여 작성하였던 파트입니다. <b>특별한 라이브러리 없이 파워포인트로 만들었기 때문에 툴의 중요성을 절감</b>하였던 파트이며, 요구사항 분석서와 기획서보다 이 순서도를 보면서 전체적인 틀을 파악하는 용도로도 요긴히 사용되었습니다.</p>
+					<p>프로젝트가 어떻게 이어질지 개략적으로 나타낸 순서도입니다. 빠른 진행을 위해 제가 주도하여 작성하였던 파트입니다. <b>특별한 라이브러리 없이 파워포인트로 만들었기 때문에 툴의
+							중요성을 절감</b>하였던 파트이며, 요구사항 분석서와 기획서보다 이 순서도를 보면서 전체적인 틀을 파악하는 용도로도 요긴히 사용되었습니다.</p>
 
-					<img src="images/project1-5.png" alt="" class = "project1">
+					<img src="images/project1-5.png" alt="" class="project1">
 					<h4><b>안경집 클래스 다이어그램</b></h4>
-					<p>처음 진행하는 프로젝트이기 때문에 객체의 설계도 당연히 처음 해보았습니다. 우선 최대한 엄밀히 구분하였으나 이후 조영호 저자가 쓴 <b>객체 설계 지식서인 "오브젝트"로 따로 객체지향 설계의 공부를 해본 결과 객체간의 의존성이 너무 강하다는 단점이 있는 설계입니다. </b> 이 프로젝트 덕분에 저는 별도의 리펙토링과 디자인 패턴을 구상 예제가 필요 없었습니다.</p>
+					<p>처음 진행하는 프로젝트이기 때문에 객체의 설계도 당연히 처음 해보았습니다. 우선 최대한 엄밀히 구분하였으나 이후 조영호 저자가 쓴 <b>객체 설계 지식서인 "오브젝트"로 따로 객체지향
+							설계의 공부를 해본 결과 객체간의 의존성이 너무 강하다는 단점이 있는 설계입니다. </b> 이 프로젝트 덕분에 저는 별도의 리펙토링과 디자인 패턴을 구상 예제가 필요 없었습니다.
+					</p>
 
-					<img src="images/project1-6.png" alt="" class = "project1"><br>
-					<h4><a href="images/project1-screenSample.pptx" download="안경집 화면 설계도.pptx"><b>안경집 화면 설계도(클릭 시 원본 파일 다운로드 가능)</b></a></h4>
-					<p>코드 구현에 앞서 콘솔 환경으로 인터페이스를 어떻게 구성할지를 ppt로 구성한 파일으로, 화려하고 거창하게 표현하기보다는 깔끔하고 직관적으로 표현하여 사용자 경험을 살리는 방안으로 작업을 진행하였습니다.</p>
+					<img src="images/project1-6.png" alt="" class="project1"><br>
+					<h4><a href="images/project1-screenSample.pptx" download="안경집 화면 설계도.pptx"><b>안경집 화면 설계도(클릭 시 원본 파일 다운로드
+								가능)</b></a></h4>
+					<p>코드 구현에 앞서 콘솔 환경으로 인터페이스를 어떻게 구성할지를 ppt로 구성한 파일으로, 화려하고 거창하게 표현하기보다는 깔끔하고 직관적으로 표현하여 사용자 경험을 살리는 방안으로
+						작업을 진행하였습니다.</p>
 
 
 
-					<img src="images/project1-7.jpg" alt="" class = "project1">
+					<img src="images/project1-7.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(사용자 - 메인 화면)</b></h4>
 					<p>프로젝트의 메인 화면입니다. 헬로우 메세지와 함께 안경의 모습을 아스키 코드로 표현하였습니다.</p>
 					<br>
 
-					<img src="images/project1-8.jpg" alt="" class = "project1">
+					<img src="images/project1-8.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(사용자 - 전체 상품 보기)</b></h4>
-					<p>현재 판매중인 안경의 전체 상품을 볼 수 있습니다. 한 페이지에 20개 씩 볼 수 있도록 페이징 하였으며, #과 숫자를 입력하면 물품의 상세 페이지를 볼 수 있습니다. 데이터는 약 1200개 정도로, 현물 자료들을 크롤링 하였습니다.</p>
+					<p>현재 판매중인 안경의 전체 상품을 볼 수 있습니다. 한 페이지에 20개 씩 볼 수 있도록 페이징 하였으며, #과 숫자를 입력하면 물품의 상세 페이지를 볼 수 있습니다. 데이터는 약
+						1200개 정도로, 현물 자료들을 크롤링 하였습니다.</p>
 					<br>
 
-					<img src="images/project1-9.jpg" alt="" class = "project1">
+					<img src="images/project1-9.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(사용자 - 카테고리별 상품 보기)</b></h4>
 					<p>판매중인 상품을 카테고리별로 확인할 수 있습니다. 전체보기와 마찬가지로 사용자가 편하게 볼 수 있게 페이징 하였으며, 해당 화면은 "뿔테" 카테고리에 해당하는 화면입니다.</p>
 					<br>
@@ -377,37 +468,38 @@
 					<p>상품의 상세 정보를 보여주는 화면으로 "바로 주문하기"와 "장바구니 추가" 중 하나를 선택할 수 있는 화면입니다.</p>
 					<br>
 
-					<img src="images/project1-11.jpg" alt="" class = "project1">
+					<img src="images/project1-11.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(사용자 - 통합 검색)</b></h4>
-					<p>상품을 통합 검색하는 화면입니다. 쉐입, 소재, 브랜드, 가격, 규격, 검색어 6가지의 조건을 입력할 수 있고, 입력 완료 시 해당 조건에 해당하는 상품들만 보여주는 기능이 있습니다.</p>
+					<p>상품을 통합 검색하는 화면입니다. 쉐입, 소재, 브랜드, 가격, 규격, 검색어 6가지의 조건을 입력할 수 있고, 입력 완료 시 해당 조건에 해당하는 상품들만 보여주는 기능이 있습니다.
+					</p>
 					<br>
 
-					<img src="images/project1-12.jpg" alt="" class = "project1">
+					<img src="images/project1-12.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(사용자 - 통합 검색 결과)</b></h4>
 					<p>통합 검색 조건에 해당하는 상품들만 출력해주는 화면입니다.</p>
 					<br><br>
 
-				
+
 					<img src="images/project1-13.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(사용자 - 회원 가입)</b></h4>
 					<p>이전까지의 화면들은 "비회원"과 "회원"모두 공통적으로 사용이 가능한 화면이었으며 로그인과 회원을 구분하기 위한 절차인 회원가입을 진행하는 화면입니다.</p>
-					<br>							
+					<br>
 					<img src="images/project1-14.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(사용자 - 로그인)</b></h4>
 					<p>회원 가입 한 정보를 토대로 로그인을 하는 페이지입니다. 로그인을 하였을 경우 장바구니를 조금 더 쉽고 장기적으로 사용할 수 있다는 장점이 있습니다.</p>
-					<br>								
+					<br>
 					<img src="images/project1-15.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(사용자 - 상품 주문)</b></h4>
 					<p>장바구니나 물품 상세 페이지를 통해 주문을 할 수 있는 화면입니다.</p>
-					<br>								
+					<br>
 					<img src="images/project1-16.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(사용자 - 상품 주문-수령인 정보 입력)</b></h4>
 					<p>상품의 주문자와 수령인의 정보가 일치하지 않을 수 있으므로 수령자 정보를 입력합니다. 만약 해당 화면에서 '예'의 값인 y를 누르면 주문자의 정보가 그대로 입력됩니다.</p>
-					<br>							
+					<br>
 					<img src="images/project1-17.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(사용자 - 상품 주문-수령 주소 입력)</b></h4>
 					<p>수령인 입력과 동격의 내용으로 배송 주소를 입력합니다.</p>
-					<br>							
+					<br>
 					<img src="images/project1-18.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(사용자 - 상품 주문- 결제 완료)</b></h4>
 					<p>해당 상품에 대한 주문이 최종적으로 완료되었다는 결제 완료 화면입니다.</p>
@@ -416,59 +508,196 @@
 					<img src="images/project1-19.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(사용자 - 상품 주문- 결제된 주문의 상세 정보)</b></h4>
 					<p></p>
-					
+
 					<img src="images/project1-20.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(관리자 - 매출 관리)</b></h4>
 					<p>관리자는 일, 월, 총 매출로 삼분화 된 매출을 한눈에 가시적으로 확인할 수 있으며 그에 해당하는 화면입니다.</p>
 					<br>
-					
+
 					<img src="images/project1-21.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(관리자 - 주문 관리)</b></h4>
 					<p>쇼핑몰의 특성 상 환불, 주문 처리등이 필수적으로 필요하고 관리자가 주문을 주도적으로 컨트롤 할 수 있어야 합니다. 모든 주문들을 볼 수 있는 화면입니다.</p>
 					<br>
-					
+
 					<img src="images/project1-22.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(관리자 - 주문 상세)</b></h4>
 					<p>주문 내역 중 하나의 주문을 선택하면 그 주문의 디테일한 정보들을 보여주는 화면입니다.</p>
 					<br>
-					
+
 					<img src="images/project1-23.jpg" alt="" class="project1">
 					<h4><b>안경집 화면 구성(관리자 - 재고 관리)</b></h4>
-					<p>관리자가 현재 보유중인 재고를 관리하는 화면입니다. 이 화면에서 상품 등록, 상품 수정, 발주 모두 가능하며 앞선 방대한 데이터를 가진 모든 화면과 마찬가지로 페이징 되어 있습니다.</p>
-					
+					<p>관리자가 현재 보유중인 재고를 관리하는 화면입니다. 이 화면에서 상품 등록, 상품 수정, 발주 모두 가능하며 앞선 방대한 데이터를 가진 모든 화면과 마찬가지로 페이징 되어 있습니다.
+					</p>
+
 					<br><br><br>
 
 					<h4><b>발표</b></h4>
-					
-					<div><img src="images/project1-ppt.png" alt="" class = "project1"></div>
+
+					<div><img src="images/project1-ppt.png" alt="" class="project1"></div>
 					<p>이 프로젝트의 발표 시간은 15분으로 프로젝트의 기능 수를 고려했을 때 "시연만 하기에도 빠듯한" 시간이었습니다.
 						어영부영 피피티를 빠르게 넘기고 얼버무리면서 발표를 해버리면 우리가 밤새 했던 노력들이 아무것도 아닌것이 될 것 같았습니다.
-						따라서 ppt의 수는 최소화 하였고 거의 모든 시간을 시연에 사용하돼 최대한 기술적인 부분을 부각하도록 노력하였습니다. 해당 내용은 제가 발표를 준비하면서 짯던 대본(A4용지 5장 분량)의 일부입니다.
+						따라서 ppt의 수는 최소화 하였고 거의 모든 시간을 시연에 사용하돼 최대한 기술적인 부분을 부각하도록 노력하였습니다. 해당 내용은 제가 발표를 준비하면서 짯던 대본(A4용지 5장
+						분량)의 일부입니다.
 					</p>
 
-					<div><img src="images/project1-ment.png" alt="" class = "project1"></div>
+					<div><img src="images/project1-ment.png" alt="" class="project1"></div>
 
-					<p>나름대로 발표를 성공적으로 마칠 수 있었고 조원들 모두 성공적으로 해냈다고 칭찬을 아끼지 않았습니다. 이 프로젝트는 하루에 1시간씩 자며 준비한 프로젝트로 단기간에 저를 가장 성장 시킨 프로젝트였습니다.</p>
+					<p>나름대로 발표를 성공적으로 마칠 수 있었고 조원들 모두 성공적으로 해냈다고 칭찬을 아끼지 않았습니다. 이 프로젝트는 하루에 1시간씩 자며 준비한 프로젝트로 단기간에 저를 가장 성장
+						시킨 프로젝트였습니다.</p>
 
-					<p>이 글은 프로젝트를 마치고 난 후 그 기분을 잃고싶지 않아 써놨던 글입니다. <span  id = "info">클릭 시 원본으로 이동</span></p>
-					
-					<div><a href="https://www.instagram.com/p/CV538UlvP0Y/?utm_source=ig_web_copy_link"><img src="images/project1-review.PNG" alt="" class = "project1-review"></a></div>
+					<p>이 글은 프로젝트를 마치고 난 후 그 기분을 잃고싶지 않아 써놨던 글입니다. <span id="info">클릭 시 원본으로 이동</span></p>
+
+					<div><a href="https://www.instagram.com/p/CV538UlvP0Y/?utm_source=ig_web_copy_link"><img
+								src="images/project1-review.PNG" alt="" class="project1-review"></a></div>
+
+					<img src="images/project1-lastshort.png" alt="" class="project1">
+					<h4><a href="images/안경집 최종 요약본.hwp" download="최종 요약본"><b>안경집 최종 요약본</b></a></h4>
+					<p>안경집 프로젝트에 대한 최종 요약본입니다.</p>
+
 					<br><br>
 
 					<hr>
 
 					<br><br>
 
-					<div><img src="images/project1-ppt.png" alt="" class = "project1"></div>
-					<h3><b>프로젝트 명: 학원 인사관리 시스템</b></h3>
-					<div>개발기간: '21. 10. 29~'21. 11. 04</div>
-					<div>인원 수: 6명(엄윤섭(팀장), 서민종, 조진욱, 이찬우, 한수연, 이채윤)</div>
+					<div><img src="images/project2-ppt.png" alt="" class="project1"></div>
+					<h3><b>프로젝트 명: 학원 인사관리 시스템(오라클 기반의 팀 프로젝트)</b></h3>
+					<div>개발기간: '21. 12. 02~'21. 12. 07</div>
+					<div>인원 수: 6명(엄윤섭(팀장), 김규석, 송준영, 윤한빈, 이정현, 황현우)</div>
+
+					<br>
+					<h4><b>프로젝트 개요</b></h4>
+					<p>이 프로젝트 또한 제가 팀장으로 참여한 프로젝트로써 제가 교육 받았던 쌍용 교육센터의 인사 관리 프로그램을 오라클 기반으로 구현한 프로그램입니다. 업무의 순서는 요구분석서 작성 ->
+						ERD 작성 -> 테이블 정의서 작성 -> 데이터 정의서 작성 -> 쿼리문 작성 -> 업무 SQL 작성 -> PPT 작성 순으로 진행 하였습니다.</p>
+
+					<br>
+					<p>이 프로젝트에서 제 <b>역할</b>은 팀장, 교사 평가 및 작성 기능, 교사 평가 작성 기능, 코로나 대면/비대면 등록 및 조회 기능, 교육 지원금 조회 기능, 반 등수 조회 기능,
+						프로젝트 공고 모집 기능, 기수별 게시판, Q&A작성 기능 구현, 팀 코드 뼈대 제작, 코드 양식 통일, 파일 양식 통일, 최종 검수, PPT 제작이었습니다.</p>
+
+					<br>
+					<p>이 프로젝트에서 구현한 모든 SQL 쿼리문의 기능들은 PL/SQL을 이용하여 프로시저화 하였습니다.</p>
+
+					<br>
+					<img src="images/요구분석서.png" alt="" class="project1">
+					<h4><a href="images/project2-요구 분석서.docx" download="요구분석서"><b>학원 인사관리 프로그램 요구분석서(클릭 시 원본 파일 다운로드
+								가능)</b></a></h4>
+					<p>프로젝트 요구 분석서의 일부입니다. 학원 인사관리에 필요한 모든 요구분석 사항들을 프로젝트의 초입에 최대한 도출하여 튼튼한 프로그램을 만들기 위해 노력했습니다. 이 프로젝트의 경우
+						사용 계층이 누구냐에 따라 어느정도의 프라이빗을 설정해야 할지부터 권한까지 명확히 나누어야 하는 성향의 프로젝트여서 요구 분석서는 계층별로 분화하여 작성 하였습니다.</p>
+
+					<img src="images/erd.png" alt="" class="project1">
+					<h4><b>ERD</b></h4>
+					<p>프로그램을 구현하기 위한 뼈대에 해당하는 ERD입니다.</p>
+
+					<img src="images/table info.png" alt="" class="project1">
+					<h4><a href="images/project2-테이블 정의서 DDL.docx" download="테이블 정의서"><b>학원 인사관리 프로그램 테이블 정의서(클릭 시 원본 파일 다운로드
+								가능)</b></a></h4>
+					<p>생성할 테이블들의 정의서와 쿼리문입니다.</p>
+
+					<img src="images/data info.png" alt="" class="project1">
+					<h4><a href="images/project2-데이터 정의서 DML.docx" download="데이터 정의서"><b>학원 인사관리 프로그램 데이터 정의서(클릭 시 원본 파일 다운로드
+								가능)</b></a></h4>
+					<p>생성할 데이터들의 정의서와 쿼리문입니다. 더미 데이터를 최초로 생성하기 위하여 자바로 난수를 발생시켜 더미 데이터를 만들었습니다.</p>
+
+					<img src="images/SQL info.png" alt="" class="project1">
+					<h4><a href="images/project2-업무 SQL (ANSI-SQL).docx" download="업무 SQL"><b>학원 인사관리 프로그램 업무 SQL(클릭 시 원본 파일
+								다운로드 가능)</b></a></h4>
+					<p>각 기능들의 데이터를 불러오기 위한 업무 SQL입니다.</p>
+
+					<br>
+
+					<img src="images/project2-B01 관리자 계정 조회.png" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(관리자 계정 조회)</b></h4>
+					<p>관리자의 게정을 조회하는 화면입니다.</p>
+
+					<img src="images/project2-B02 기초정보 조회.png" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(기초 정보 조회)</b></h4>
+					<p>관리자는 교사 계정 관리 및 개설 과정, 개설 과목에 사용하게 될 기초 정보를 등록 및 관리할 수 있습니다.</p>
+
+					<img src="images/project2-B03 교사 정보 조회.png" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(교사 정보 조회)</b></h4>
+					<p>교사 정보는 교사 이름, 주민번호 뒷자리, 전화번호, 강의 가능 과목 등을 제공합니다.</p>
+
+					<img src="images/project2-B04 개설 과정 정보.png" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(개설 과정 정보 조회)</b></h4>
+					<p>과정 정보는 과정명, 과정기간(시작년월일, 끝년월일), 강의실 정보를 포함합니다.</p>
+					
+					<img src="images/project2-B05 개설 과먹 정보.png" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(개설 과목 정보)</b></h4>
+					<p>개설 과목 정보는 과목명, 과목기간(시작 년월일, 끝 년월일), 교재명, 교사명을 포함합니다.</p>
+
+					<img src="images/project2-B06 교육생 조회 및 추가.png" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(교육생 조회 및 추가)</b></h4>
+					<p>교육생 정보 입력시 교육생 이름, 주민번호 뒷자리, 전화번호를 기본으로 등록하고, 주민번호 뒷자리는 교육생 본인이 로그인 시 패스워드로 사용된다. 등록일은 자동으로 입력되도록 합니다.</p>
+
+					<img src="images/project2-B07 학생 성적 조회.png" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(학생 성적 조회)</b></h4>
+					<p>학생의 성적을 조회하는 화면입니다.</p>
+
+					<img src="images/project2-B08 출결 관리 업무.png" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(출결 관리 업무)</b></h4>
+					<p>출결 현황을 기간별(년, 월, 일) 조회할 수 있고, 특정(특정 과정, 특정 인원) 출결 현황을 조회할 수 있으며 모든 출결 조회는 근태 상황을 구분할 수 있습니다.(정상, 지각, 조퇴, 외출, 병가, 기타)</p>
+
+					<img src="images/project2-B09 졸업생 멘티 멘토 조회.png" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(졸업생 멘티 멘토 조회)</b></h4>
+					<p>현재 수강중인 과정의 1인당 멘토 1명씩 배정하였으며 그에 해당하는 화면입니다.</p>
+
+					<img src="images/project2-B10-1 학생 지원금 배부 현황.PNG" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(교육 지원금 및 월급 배부 현황-학생 지원금 배부 현황)</b></h4>
+					<p>관리자는 교육생 정보(이름, 과정명, 수강 일수)를 조회하고 교육 지원금 계산이 된 값과 입금 예정날짜를 조회하고 입금 확인을 조회할 수 있습니다.</p>
+
+					<img src="images/project2-B10-2 교사 월급 지급 현황.PNG" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(개설 과정 정보 조회)</b></h4>
+					<p>교사 정보(이름, 월급, 월급날짜, 수강중인 강좌)를 조회하고 월급 날짜에 맞춰 지급 되었는지 확인할 수 있습니다.</p>
+
+					<img src="images/project2-B11-1 학생 비대면 여부 조회.PNG" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(코로나 대면 여부 조회 - 학생 비대면 여부 조회)</b></h4>
+					<p>학생의 코로나에 따른 비대면 여부를 조회할 수 있습니다.</p>
+
+					<img src="images/project2-B11-2 교사 비대면 여부 조회.PNG" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(교사 비대면 여부 조회)</b></h4>
+					<p>교사의 코로나에 따른 비대면 여부를 조회할 수 있습니다.</p>
+
+					<img src="images/project2-B12 졸업생 취업 현황.PNG" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(졸업생 취업 현황)</b></h4>
+					<p>졸업생 취업 현황을 알 수 있습니다.</p>
+
+					<img src="images/project2-B13 졸업생 취업처 및 연봉 조회.PNG" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(졸업생 취업처 및 연봉 조회)</b></h4>
+					<p>졸업생의 취업처와 그 취업처가 위치한 도시, 그리고 연봉을 조회할 수 있습니다.</p>
+
+					<img src="images/project2-B14 교육생 팀 편성 조회.PNG" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(교육생 팀 편성 조회)</b></h4>
+					<p>관리자는 교육생의 팀 편성에 대한 권한은 없고 오로지 "조회"만 할 수 있습니다. 팀 편성 권한은 교사에게 있으며 조회하는 화면입니다.</p>
+
+					<img src="images/project2-B15 교육생 상담 조회.PNG" alt="" class="project2">
+					<h4><b>교육센터 DB 프로젝트 화면구성(교육생 상담 조회)</b></h4>
+					<p>관리자는 교육생의 상담을 조회할 수 있으며 그에 해당하는 화면입니다.</p>
+
+
+
+
+
+					<br><br>
+
+					<img src="images/project2-lastshort.png" alt="" class="project1">
+					<h4><a href="images/5조 최종 요약본.docx" download="최종 요약본"><b> 최종 요약본</b></a></h4>
+					<p>교육센터 운양(DB) 프로젝트에 대한 최종 요약본입니다.</p>
+
+
+
+
+					
+
+
+
+
+
 
 
 				</div>
 			</section>
 
-			
+
 			<!-- Get Started -->
 
 			<section id="contact" class="main special">
@@ -476,18 +705,19 @@
 					<h2>Contact</h2>
 
 					<p>이 포트폴리오는 입사를 하기위한 것이기 이전에 더 좋은 사람이 되고싶은 노력의 소산입니다.
-						<br>따라서 포트폴리오나 입사와 관련된 것이 아닌 어떠한 조언이라도 달게 받겠습니다.</p>
+						<br>따라서 포트폴리오나 입사와 관련된 것이 아닌 어떠한 조언이라도 달게 받겠습니다.
+					</p>
 
 					<div>
-						
-					
+
+
 						<p>Address: 서울특별시 신림동 문성로 205-7<br>
-						Phone: 010-4562-3255<br>
-						Email: <a href="lh0156@naver.com" id="email">lh0156@naver.com</p>
-					
+							Phone: 010-4562-3255<br>
+							Email: <a href="lh0156@naver.com" id="email">lh0156@naver.com</p>
+
 					</div>
 					<div class="content">
-					
+
 						<form>
 							<div class="fields">
 								<div class="field half">
@@ -508,7 +738,7 @@
 				</header>
 				<ul class="features">
 				</ul>
-			
+
 
 		</div>
 
