@@ -1,0 +1,150 @@
+
+		#firstMent {
+			font-size: 15px;
+		}
+
+		li {
+			margin-bottom: 5px;
+			list-style:none
+		}
+
+		.insta,
+		.git,
+		.blog {
+			width: 150px;
+		}
+
+		#myProfile{
+			width: 300px;
+			height: 400px;
+			margin-left: 60px;
+		}
+
+		#go_in{
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+		#blog {
+			width: 30px;
+			height: 30px;
+			border: 1px solid white;
+			border-radius: 50%;
+			color: white;
+		}
+
+
+		.SkillList {
+			width: 20px;
+			height: 20px;
+		}
+
+		#java,
+		#html,
+		#css,
+		#javascript {
+			width: 10px;
+		}
+
+		#sql {
+			width: 10px;
+		}
+
+		.SkillList {
+			display: inline-block;
+		}
+
+		.skill>img {
+			width: 50px;
+			height: 50px;
+		}
+
+		.skill>img>div {
+			text-align: center;
+			margin-left: 50px;
+			font-weight: bolder;
+		}
+
+		td {
+			width: 10px;
+			text-align: center;
+		}
+
+		table {
+			table-layout: fixed;
+		}
+
+		.carrerImg {
+			margin-left: 55px;
+			width: 200px;
+			height: 165.23px;
+		}
+
+		h3 {
+			text-align: center;
+		}
+
+		#skillList {
+			margin-top: 75px;
+		}
+
+		#universityExplanation,
+		#ROTCExplanation,
+		#ssangYongExplanation {
+			margin-top: 50px;
+		}
+
+		#universityName,
+		#ROTCName,
+		#ssangYongName {
+			margin-top: 30px;
+		}
+
+		#contect {
+			color: black;
+			margin-top: 5px;
+			margin-left: 360px;
+			margin-right: auto;
+		}
+
+		#footer {
+			color: black;
+			padding: 0px;
+			margin-bottom: 0px;
+		}
+
+		#aboutOfInstar,
+		#aboutOfBlog,
+		#email {
+			color: purple;
+		}
+
+		#info {
+			color: brown;
+			font-size: 15px;
+		}
+
+		.project1 {
+			width: 900px;
+			height: 600px;
+		}
+
+		.project2 {
+			width: 500px;
+			height: 300px;
+		}
+
+		#proposal {
+			width: 900px;
+			height: 1000px;
+		}
+
+		#sendMasage {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#project1-review {
+			width: 700px;
+			height: 600px;
+		}
